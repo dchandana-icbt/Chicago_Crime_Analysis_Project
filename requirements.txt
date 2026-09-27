@@ -1,0 +1,44 @@
+# Chicago Crime Analysis Project — Python dependencies
+#
+# Install into the project venv with:
+#   uv pip install --python .venv/bin/python -r requirements.txt
+# or, with plain pip:
+#   pip install -r requirements.txt
+#
+# Verified working with:
+#   - Python 3.11 (this project's .venv, kernel "chicago-crime-prac1")
+#   - Java 17 (OpenJDK, Homebrew) — required by PySpark; not a pip package,
+#     install separately (`brew install openjdk@17` on macOS) if missing.
+#
+# Covers all notebooks: 00_download_chicago_datasets, 01_data_engineering,
+# 02_eda, 03_clustering, 04_classification, 04b_classification_multiclass_extension.
+
+# --- Core data processing (all notebooks) ---
+pyspark==3.5.3
+pandas==3.0.6
+numpy==2.4.6
+pyarrow==25.0.1        # used by PySpark for Arrow-optimized toPandas()/createDataFrame()
+
+# --- Machine learning (03_clustering, 04_classification, 04b_*) ---
+scikit-learn==1.9.1
+
+# --- Visualization (02_eda, 03_clustering, 04_classification, 04b_*) ---
+matplotlib==3.11.2
+
+# --- Live weather data (02_eda §5 — Chicago daily temperature) ---
+meteostat==2.1.5
+
+# --- Dataset download/setup (00_download_chicago_datasets) ---
+requests==2.34.2
+tqdm==4.70.1
+kaggle==2.2.4          # optional: only exercised if downloading via the Kaggle API
+                       # rather than the City of Chicago Data Portal fallback
+
+# --- Jupyter kernel (required to open/run any of the notebooks) ---
+ipykernel==7.3.0
+
+# --- Headless notebook execution (optional — not imported by notebook code;
+#     only needed for `jupyter nbconvert --execute` / CI-style runs) ---
+nbconvert==7.17.1
+nbclient==0.11.0
+nbformat==5.11.1
