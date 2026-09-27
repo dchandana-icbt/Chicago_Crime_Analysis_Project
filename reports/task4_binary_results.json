@@ -1,0 +1,68 @@
+{
+  "RandomForest": {
+    "model": "RandomForest",
+    "confusion_matrix": [
+      [
+        392116.0,
+        962.0
+      ],
+      [
+        42641.0,
+        11067.0
+      ]
+    ],
+    "auc": 0.817688046061955,
+    "pr_auc": 0.5528138451950886,
+    "accuracy": 0.9024074165260326,
+    "precision_arrest": 0.9200266023775875,
+    "recall_arrest": 0.2060586877187756,
+    "f1_arrest": 0.33670535619209885,
+    "precision_no_arrest": 0.9019199230834696,
+    "recall_no_arrest": 0.9975526485837416,
+    "n_test": 446786
+  },
+  "GBT": {
+    "model": "GBT",
+    "confusion_matrix": [
+      [
+        377987.0,
+        15091.0
+      ],
+      [
+        28066.0,
+        25642.0
+      ]
+    ],
+    "auc": 0.8414163373003973,
+    "pr_auc": 0.5637346336793521,
+    "accuracy": 0.9034056572945437,
+    "precision_arrest": 0.6295141531436428,
+    "recall_arrest": 0.4774335294555746,
+    "f1_arrest": 0.5430268633326627,
+    "precision_no_arrest": 0.9308809441132069,
+    "recall_no_arrest": 0.9616081286665751,
+    "n_test": 446786
+  },
+  "RandomForest_weighted": {
+    "model": "RandomForest_weighted",
+    "confusion_matrix": [
+      [
+        367440.0,
+        25638.0
+      ],
+      [
+        26237.0,
+        27471.0
+      ]
+    ],
+    "auc": 0.8215555647961724,
+    "pr_auc": 0.5421986674496544,
+    "accuracy": 0.8838929599405532,
+    "precision_arrest": 0.5172569620968197,
+    "recall_arrest": 0.5114880464735235,
+    "f1_arrest": 0.5143563290487468,
+    "precision_no_arrest": 0.9333539932482721,
+    "recall_no_arrest": 0.9347763039396761,
+    "n_test": 446786
+  }
+}

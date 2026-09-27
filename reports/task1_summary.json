@@ -1,0 +1,13 @@
+{
+  "raw_rows": 7784664,
+  "clean_rows": 7784664,
+  "quarantined_rows": 0,
+  "duplicate_ids_removed": 0,
+  "pct_missing_ward": 0.07898195734587903,
+  "pct_missing_district": 6.037511702496087e-06,
+  "pct_bad_or_missing_geo": 0.011171451972750527,
+  "pct_bad_community_area": 9.762784880631971e-06,
+  "pct_year_field_mismatch": 0.0,
+  "census_areas_loaded": 77,
+  "weather_days_loaded": 8035
+}

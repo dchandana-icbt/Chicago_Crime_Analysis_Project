@@ -1,0 +1,17 @@
+{
+  "year_district": {
+    "partition_dirs": 536,
+    "files": 536,
+    "total_mb": 315.985985,
+    "avg_file_mb": 0.5895260914179105,
+    "write_seconds": 45.92141890525818
+  },
+  "year_only": {
+    "partition_dirs": 23,
+    "files": 23,
+    "total_mb": 349.462587,
+    "avg_file_mb": 15.19402552173913,
+    "write_seconds": 42.66558289527893
+  },
+  "raw_csv_mb": 1837.896568
+}

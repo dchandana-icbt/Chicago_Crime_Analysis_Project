@@ -1,0 +1,8 @@
+{
+  "rows": 8035,
+  "distinct_dates": 8035,
+  "missing_temp_avg": 0,
+  "missing_precip": 0,
+  "date_min": "2001-01-01",
+  "date_max": "2022-12-31"
+}

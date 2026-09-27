@@ -1,0 +1,10 @@
+{
+  "total_rows": 7784664,
+  "bad_timestamp": 0,
+  "bad_or_missing_geo": 86966,
+  "bad_or_missing_community_area": 76,
+  "missing_district": 47,
+  "missing_ward": 614848,
+  "year_field_mismatch": 0,
+  "duplicate_ids": 0
+}

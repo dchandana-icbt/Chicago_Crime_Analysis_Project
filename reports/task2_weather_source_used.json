@@ -1,0 +1,7 @@
+{
+  "source": "meteostat (live fetch, station 72534 \u2014 Chicago Midway Airport)",
+  "n_days": 8035,
+  "date_min": "2001-01-01",
+  "date_max": "2022-12-31",
+  "corr_avg_temp_c": 0.2502239831780976
+}

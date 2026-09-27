@@ -1,0 +1,15 @@
+{
+  "sweep_fraction": 0.22,
+  "sweep_n": 1694581,
+  "best_k_by_silhouette": 5,
+  "km_silhouette": 0.4061229886297189,
+  "bkm_silhouette": 0.3615395021564152,
+  "chosen_model": "KMeans",
+  "mean_top_district_share": 0.12144325905247053,
+  "mean_districts_touched": 20.8,
+  "spatial_only": {
+    "silhouette": 0.5201265559649088,
+    "mean_top_district_share": 0.26493623825453183,
+    "mean_districts_touched": 13.4
+  }
+}
